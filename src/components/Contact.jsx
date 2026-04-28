@@ -166,7 +166,7 @@ export default function Contact() {
                   required
                   value={form.name}
                   onChange={e => setForm({ ...form, name: e.target.value })}
-                  placeholder="John Doe"
+                  placeholder="Enter Your Name"
                   className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-purple-500 transition-colors duration-300"
                 />
               </div>
@@ -194,7 +194,7 @@ export default function Contact() {
                   rows={5}
                   value={form.message}
                   onChange={e => setForm({ ...form, message: e.target.value })}
-                  placeholder="Tell me about your project..."
+                  placeholder="Tell me what you have in mind…"
                   className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-purple-500 transition-colors duration-300 resize-none"
                 />
               </div>

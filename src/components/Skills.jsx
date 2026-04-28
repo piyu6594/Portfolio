@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { FaReact, FaGithub, FaJava } from 'react-icons/fa'
 import { SiJavascript, SiTypescript, SiTailwindcss, SiSpringboot } from 'react-icons/si'
-import { TbBrandVscode } from 'react-icons/tb'
 
 const skillCategories = [
   {
@@ -84,14 +83,6 @@ const techStack = [
     hoverColor: 'hover:text-green-400',
     glowColor: 'hover:shadow-green-500/50',
     borderColor: 'hover:border-green-500/50',
-  },
-  {
-    name: 'VS Code',
-    icon: TbBrandVscode,
-    color: 'text-blue-400',
-    hoverColor: 'hover:text-blue-300',
-    glowColor: 'hover:shadow-blue-400/50',
-    borderColor: 'hover:border-blue-400/50',
   },
 ]
 

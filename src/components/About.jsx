@@ -68,9 +68,9 @@ function AboutPhoto() {
           transition={{ duration: 0.35 }}
           className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-6 " 
         >
-          <p className="text-white font-bold text-xl ml-42">Priyanka Patel</p>
-          <p className="text-purple-300 text-sm mt-1 ml-42">Frontend Developer</p>
-          <div className="flex gap-2 mt-3 ml-42">
+          <p className="text-white font-bold text-xl ml-16 md:ml-42">Priyanka Patel</p>
+          <p className="text-purple-300 text-sm mt-1 ml-16 md:ml-42">Frontend Developer</p>
+          <div className="flex gap-2 mt-3 ml-16 md:ml-42">
             {['React', 'Tailwind', 'UI/UX'].map(t => (
               <span key={t} className="text-xs px-2 py-1 rounded-full bg-purple-500/40 text-purple-200 border border-purple-500/30">
                 {t}
@@ -187,7 +187,7 @@ export default function About() {
                     </div>
                     <span className="text-xs text-gray-500 uppercase tracking-wider">{label}</span>
                   </div>
-                  <p className="text-white font-medium text-sm">{value}</p>
+                  <p className="text-white font-medium text-sm break-words">{value}</p>
                 </motion.div>
               ))}
             </div>
