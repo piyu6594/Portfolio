@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { Download, ArrowDown } from 'lucide-react'
 
-const roles = ['Frontend Developer', 'React Developer', 'UI/UX Enthusiast', 'Web Designer']
+const roles = ['Frontend Developer', 'React Developer']
 
 /* ── Social SVG icons ── */
 const GithubIcon = () => (
