@@ -70,7 +70,7 @@ function AvatarFrame() {
           )}
           {/* Actual photo — place your image at public/profile.jpg */}
           <img
-            src="/piyu_image.jpeg"
+            src="/piyu_image.avif"
             alt="Priyanka Patel"
             loading="eager"
             onLoad={() => setImgLoaded(true)}
